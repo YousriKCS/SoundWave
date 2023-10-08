@@ -1,0 +1,15 @@
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./index.html":82.9-82.34: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./index.html":87.9-87.34: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./index.html":93.9-93.36: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":35.13-35.41: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":45.13-45.42: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":50.13-50.49: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":55.13-55.41: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":60.13-60.48: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":65.13-65.51: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":70.13-70.53: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":75.13-75.55: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":80.13-80.46: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":85.13-85.54: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":90.13-90.39: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.
+"file:/Users/yousrikhalfallah/WebstormProjects/IU1/INF10/yousri.khalfallah/./html/Producten.html":95.13-95.46: error: Bad value “” for attribute “src” on element “img”: Must be non-empty.

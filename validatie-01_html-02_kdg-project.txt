@@ -1,0 +1,8 @@
+=== HTML_Semantiek_inhoud ===
+*** Main ***
+html/BeatsPro.html
+	[MISSING main]
+html/SonyUltra.html
+	[MISSING main]
+html/AirpodsMax.html
+	[MISSING main]
