@@ -1,0 +1,20 @@
+/* KleurenPallet*/
+:root {
+    /* CSS HEX */
+    --lavender-web: #e5e1eeff;
+    --powder-blue: #90bedeff;
+    --black: #000500ff;
+    --light-cyan: #e2fdffff;
+}
+
+/*  titels verbergen */
+.hiddenTitle{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    left: -10000px;
+}
+body {
+    background-color: var(--light-cyan);
+}
