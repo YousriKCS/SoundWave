@@ -2,29 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Site.css">
+    <link rel="stylesheet" href="css/Index.css">
     <title>SoundWave</title>
 </head>
-<body>
-<header>
-    <h1>SoundWave</h1>
-    <nav>
+<body class="grid-container">
+<header class="g-header" class="border-panel">
+    <h1 class="hiddenTitle">SoundWave</h1>
+    <nav id="menu">
         <img src="/media/Logo.png" alt="Logo">
-        <h2>Menu</h2>
+        <h2 class="hiddenTitle">Menu</h2>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="html/Producten.html" title="This takes you to Products">Producten</a></li>
-            <li>
+            <li class="submenu">
+                <a href="html/Producten.html" title="This takes you to Products">Producten</a>
                 <ul>
                     <li><a href="html/AirpodsMax.html" title="This takes you to best seller! ">Best-Seller!</a></li>
                     <li><a href="html/BeatsPro.html" title="This takes you to Top rated!">Top-Rated!</a></li>
                 </ul>
             </li>
+
             <li><a href="html/Bestel.html" title="This takes you to Order">Bestel</a></li>
         </ul>
     </nav>
 </header>
-<main>
+<main class="g-main" class="border-panel">
     <section>
         <img src="media/HomepagePicture.jpg" alt="SoundWave">
         <h2>Unparalleled Sound, Unbelievable comfort 🌟</h2>
@@ -84,7 +86,7 @@
 
         </section>
     </article>
-    <aside>
+    <aside class="g-aside" class="border-panel">
         <h2>What do our customers think of us...</h2>
         <ul>
             <li>
@@ -117,7 +119,7 @@
     </aside>
 
 </main>
-<footer>
+<footer class="g-footer" class="border-panel">
     <section>
         <img src="/media/Logo.png" alt="Logo">
         <h2>About Us</h2>
