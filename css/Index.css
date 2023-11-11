@@ -18,9 +18,21 @@
     grid-area: grid-main;
 }
 
+aside h2 {
+    align-items: center;
+}
+.review {
+    border: 1px solid brown;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 5px;
+}
 .g-aside{
     grid-area: grid-aside;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .g-footer {
     grid-area: grid-footer;

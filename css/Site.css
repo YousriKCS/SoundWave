@@ -71,8 +71,19 @@ nav {
 
 
 #logo {
-    display: block;
-    padding: 1em;
-    width: auto;
-    height: 100%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-item {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    flex: 1;
+    padding: 10px;
 }
