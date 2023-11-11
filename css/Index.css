@@ -1,23 +1,3 @@
-.reviewBody{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.review{
-    text-align: center;
-}
-.review img{
-    width: auto;
-    height: auto;
-    object-fit: cover;
-}
-.reviewBody li {
-    list-style: none;
-    padding: 0;
-}
-aside h2{
-    text-align: center;
-}
-article h2 {
+main section h2{
     text-align: center;
 }

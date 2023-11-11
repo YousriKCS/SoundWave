@@ -35,7 +35,7 @@ body {
 }
 
 nav li a:hover{
-    color: var(--black)
+    color: red;
 }
 #menu ul ul{
     flex-direction: column;
@@ -64,28 +64,29 @@ nav li a:hover{
     display: flex;
     flex-direction: row;
     padding-left: 0;
-    list-style: none;
-    justify-content: center;
+    justify-content: left;
     flex-grow: 1;
 }
 .breadcrumbs li{
+    display: inline-block;
     background-color: var(--powder-blue);
     color: var(--black);
     box-sizing: border-box;
     padding: 0.75rem 1rem;
     text-align: center;
     flex-grow: 1;
+    margin-right: -5px;
+    list-style: none;
+    transition: background-color 0.3s ease;
 }
 section ol li a:hover{
-    color: var(--black);
+    color: red;
 }
 nav {
     display: flex;
     align-items: center;
     width: 100%;
 }
-
-
 #logo {
     width: 120px;
     height: 120px;
@@ -101,3 +102,27 @@ footer {
     flex: 1;
     padding: 10px;
 }
+.reviewBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.review{
+    text-align: center;
+}
+.review img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+.reviewBody li {
+    list-style: none;
+    padding: 0;
+}
+main aside h2 {
+    text-align: center;
+}
+article h2{
+    text-align: center;
+}
+

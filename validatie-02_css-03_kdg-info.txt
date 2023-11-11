@@ -1,0 +1,4 @@
+=== CSS_Duplicatie ===
+*** property/value combinatie ***
+9	text-align:center	[css/Index.css (1),css/Product.css (2),css/Site.css (5),css/ProductDetail.css (1)]
+7	display:flex	[css/Product.css (1),css/Site.css (6)]
