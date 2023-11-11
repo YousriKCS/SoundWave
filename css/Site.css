@@ -37,7 +37,6 @@ body {
 nav li a:hover{
     color: var(--black)
 }
-
 #menu ul ul{
     flex-direction: column;
 }
@@ -51,8 +50,6 @@ nav li a:hover{
 #menu .submenu:hover ul{
     display: flex;
 }
-
-
 #menu li {
     background-color: var(--powder-blue);
     color: var(--black);
@@ -62,6 +59,25 @@ nav li a:hover{
     flex-grow: 1;
     position: relative;
 
+}
+.breadcrumbs  {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+    flex-grow: 1;
+}
+.breadcrumbs li{
+    background-color: var(--powder-blue);
+    color: var(--black);
+    box-sizing: border-box;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    flex-grow: 1;
+}
+section ol li a:hover{
+    color: var(--black);
 }
 nav {
     display: flex;
@@ -81,8 +97,6 @@ footer {
     justify-content: space-around;
 }
 .footer-item {
-    margin: 0;
-    padding: 0;
     text-align: left;
     flex: 1;
     padding: 10px;
