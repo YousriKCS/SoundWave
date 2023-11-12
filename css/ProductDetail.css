@@ -1,26 +1,9 @@
-.imageBody {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    align-items: center;
-}
-
-.image {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-    box-sizing: border-box;
-}
-
-.image img {
+.page img {
     width: 70%;
     height: 188px;
     object-fit: cover;
 }
-.imageText {
-    margin: 0;
-}
-main section h3   {
-    text-align: center;
-}
 
+aside h2 {
+    margin-top: 50px;
+}

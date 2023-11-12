@@ -1,7 +1,6 @@
 .ProductenGalerij {
     list-style: none;
     padding-left: 0;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,11 +22,7 @@
     height: 15rem;
     border-bottom: 1px solid var(--powder-blue);
 }
-.ProductenGalerij  p{
-    text-align: center;
-}
-
 .ProductenGalerij h3{
-    text-align: center;
     padding: 0 0.7rem;
 }
+

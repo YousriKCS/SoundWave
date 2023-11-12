@@ -1,4 +1,0 @@
-=== HTML_Semantiek_inhoud ===
-*** Semi-verboden_tags ***
-html/Producten.html
-	[Semi-verboden tag] <div>: 41

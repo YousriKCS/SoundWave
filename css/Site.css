@@ -6,6 +6,7 @@
     --black: #000500ff;
     --light-cyan: #e2fdffff;
     --alice-blue: #e8f1f2ff;
+    --baby-blue: #E4F4F3;
 }
 
 /*  titels verbergen */
@@ -17,13 +18,14 @@
     left: -10000px;
 }
 body {
-    background-color: var(--alice-blue);
+    background-color: var(--baby-blue);
     width: 95%;
     margin: auto;
     padding-top: 0.5em;
     font-size: 16px;
 
 }
+
 #menu ul {
     /* flexbox */
     display: flex;
@@ -107,9 +109,6 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
 }
-.review{
-    text-align: center;
-}
 .review img{
     width: auto;
     height: auto;
@@ -119,10 +118,29 @@ footer {
     list-style: none;
     padding: 0;
 }
-main aside h2 {
-    text-align: center;
-}
-article h2{
-    text-align: center;
-}
 
+.page{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    box-sizing: border-box;
+
+}
+.pageText {
+     margin: 0;
+ }
+.pageBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.textAlignCenter{
+    text-align: center;
+}
+.displayFlex{
+    display: flex;
+}
+.margeBottom{
+    margin-bottom: 50px;
+}

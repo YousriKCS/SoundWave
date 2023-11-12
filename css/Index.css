@@ -1,3 +1,22 @@
-main section h2{
-    text-align: center;
+.page img {
+    width: 100%;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+
+article img {
+    width: 70%;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+}
+article h2 {
+    text-align: right;
+}
+article {
+    margin-left: 50px;
 }
