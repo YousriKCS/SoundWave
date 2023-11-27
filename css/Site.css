@@ -145,3 +145,11 @@ footer {
 .margeBottom{
     margin-bottom: 50px;
 }
+.margeTop{
+    margin-top: 20px;
+}
+
+form label {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

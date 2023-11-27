@@ -7,3 +7,9 @@
 aside h2 {
     margin-top: 50px;
 }
+ button{
+    width: 8rem;
+    background-color: lightgreen;
+    padding: 5px 10px;
+    cursor: pointer;
+}

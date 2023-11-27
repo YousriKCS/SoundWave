@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="../css/Site.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <title>Bestel</title>
+    <script src="../scripts/Bestel.js"></script>
+    <link rel="stylesheet" href="../css/bestel.css">
 </head>
 <body>
 <header>
@@ -26,6 +28,69 @@
 </nav>
 </header>
 <main>
+
+    <form action="" class="margeBottom" >
+        <fieldset> <legend class="textAlignCenter">Ga verder met je bestelling:</legend>
+            <div>
+                <label for="voornaam">Firstname:</label>
+                <input type="text" id="voornaam" placeholder="Thomas">
+            </div>
+            <div>
+                <label for="achternaam">Lastname:</label>
+                <input type="text" id="achternaam" placeholder="Ian">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="example@hotmail.com">
+            </div>
+            <div>
+                <label for="telefoonnummer">Phonenumber:</label>
+                <input type="number" id="telefoonnummer" placeholder="+324 15 45 18 25.">
+            </div>
+            <div>
+                <label for="product">Choose a Headphone:</label>
+                <select name="product" id="product">
+                    <option value="">--Select a headphone--</option>
+                    <optgroup label="Over-Ear" >
+                        <option value="airpodsmax">Airpods Max</option>
+                        <option value="beatspro">Beats Pro</option>
+                        <option value="sonyultra">Sony Ultra</option>
+                        <option value="jbltune">JBL - Tune</option>
+                        <option value="bosequietcomfort45">Bose QuietComfort 45</option>
+                        <option value="logitechzonevibe125">Logitech Zone Vibe 125</option>
+                        <option value="volkanoimpulsesseries">Volkano Impulses Series</option>
+                    </optgroup>
+                    <optgroup label="In-Ear">
+                        <option value="galaxybuds">Galaxy Buds</option>
+                        <option value="airpodspro">Airpods Pro</option>
+                        <option value="beatspowerBeats">Beats - PowerBeats</option>
+                    </optgroup>
+                    <optgroup label="On-Ear">
+                        <option value="marshallmajorIV">Marshall Major IV</option>
+                        <option value="ankersoundcorelifeq30">Anker Soundcore Life Q30</option>
+                        <option value="philipstah4205">Philips TAH4205</option>
+                        <option value="balo700">Balo 700</option>
+                        <option value="montblancmb01">Montblanc MB 01</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="datumVoorLevering">Delivery Date:</label>
+                <input type="date" id="datumVoorLevering" >
+            </div>
+            <div>
+                <label for="review">Add a message to your Order:</label>
+            </div>
+            <div>
+            <textarea name="opmerking" id="review" cols="100" rows="3"></textarea>
+            </div>
+            <div class="textAlignCenter margeTop">
+                <button type="submit">Order!</button>
+
+            </div>
+        </fieldset>
+    </form>
 
 </main>
 <footer>

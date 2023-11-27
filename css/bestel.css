@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 0 10px;
+    max-width: 55rem;
+    margin: auto;
+    margin-top: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 7px;
+    border-radius: 6px;
+    border: 2px outset lightskyblue;
+}
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+form button{
+    width: 30rem;
+    background-color: lightgreen;
+    padding: 15px 32px;
+    cursor: pointer;
+}
