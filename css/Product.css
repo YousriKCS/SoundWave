@@ -26,3 +26,6 @@
     padding: 0 0.7rem;
 }
 
+form select option  {
+    font-family: Montserrat, sans-serif;
+}
