@@ -81,7 +81,7 @@
             </div>
             <div>
                 <label for="deliveryaddress">Delivery Address:</label>
-                <input type="text" id="deliveryaddress" required>
+                <input type="text" id="deliveryaddress" required placeholder="Pothoekstraat 125, 2060 ANTWERPEN">
             </div>
             <div>
                 <label for="datumVoorLevering">Delivery Date:</label>
@@ -89,10 +89,13 @@
             </div>
             <div>
                 <label for="payment">How would you like to pay?</label>
-                <select name="payment" id="payment">
+                <select name="payment" id="payment" required>
+                    <option value="">--Select a Payment Method--</option>
+                    <optgroup label="method" class="textAlignCenter">
                     <option value="creditcard">CreditCard: Visa/MasterCard</option>
                     <option value="applepay">Apple Pay</option>
                     <option value="paypal">PayPal</option>
+                    </optgroup>
                 </select>
             </div>
             <div>
