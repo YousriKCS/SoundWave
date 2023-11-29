@@ -5,11 +5,23 @@ document.getElementById("telefoonnummer").addEventListener("change", validateTel
 
 
 
+document.getElementById("submit").addEventListener("click", function(event) {
+    event.preventDefault();
+    let form = document.getElementById("bestellingklant");
+    let buttonSpan = document.getElementById("orderbutton");
+    if (form.checkValidity()) {
+        buttonSpan.innerText = "";
+        form.submit();
+    } else {
+        buttonSpan.innerText = "Please fill in the required fields correctly!";
+        buttonSpan.style.color = "red";
+    }
+});
 function validateVoornaam() {
     let naam = this.value;
     let naamSpan = document.getElementById("firstnamespan");
     if (naam.trim() !== naam) {
-        naamSpan.innerText = "Verwijder de extra spaties.";
+        naamSpan.innerText = "Erase extra spaces.";
         naamSpan.style.color = "red";
         this.classList.remove("validInput");
         this.classList.add("nonValidInput");
@@ -23,7 +35,7 @@ function validatieAchternaam() {
     let naam = this.value;
     let naamSpan = document.getElementById("lastnamespan");
     if (naam.trim() !== naam) {
-        naamSpan.innerText = "Verwijder de extra spaties.";
+        naamSpan.innerText = "Erase extra spaces.";
         naamSpan.style.color = "red";
         this.classList.remove("validInput");
         this.classList.add("nonValidInput");
@@ -39,7 +51,7 @@ function validateMail() {
     let mailSpan = document.getElementById("mailspan");
     let emailPattern = /^(?!.*\.\.)[a-zA-Z]+\.[a-zA-Z]+@(?:student\.)?kdg\.be$/;
     if (!emailPattern.test(mailadres)) {
-        mailSpan.innerText = "Vul een geldig KdG-e-mailadres in.";
+        mailSpan.innerText = "Enter a valid KdG email address.";
         mailSpan.style.color = "red";
         this.classList.remove("validInput");
         this.classList.add("nonValidInput");
@@ -55,7 +67,7 @@ function validateTelefoonNummer() {
     let telefoonSpan = document.getElementById("phonenumberspan");
     let nummerPattern = /^0?[1-9][0-9]{7,8}$/;
     if (!nummerPattern.test(nummer)) {
-        telefoonSpan.innerText = "Vul een correcte nummer in.";
+        telefoonSpan.innerText = "Enter a valid Phonenumber.";
         telefoonSpan.style.color = "red";
         this.classList.remove("validInput");
         this.classList.add("nonValidInput");

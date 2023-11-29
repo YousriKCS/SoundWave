@@ -7,7 +7,7 @@
     <title>Bestel</title>
     <script src="../scripts/Bestel.js"></script>
     <link rel="stylesheet" href="../css/bestel.css">
-    <script src="../scripts/ValidatieVelden.js"></script>
+    <script src="../scripts/ValidatieVelden.js" defer></script>
 </head>
 <body>
 <header>
@@ -30,7 +30,7 @@
 </header>
 <main>
 
-    <form  class="margeBottom" >
+    <form id="bestellingklant" class="margeBottom" >
         <fieldset> <legend class="textAlignCenter">Continue with your order:</legend>
             <div>
                 <label for="voornaam">Firstname:</label>
@@ -104,8 +104,8 @@
             </div>
             <div class="textAlignCenter margeTop">
                 <button type="submit">Order Now!</button>
-
             </div>
+            <span id="orderbutton"></span>
         </fieldset>
     </form>
 
