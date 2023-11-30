@@ -1,7 +1,7 @@
 === HTML_Semantiek_inhoud ===
 *** Semi-verboden_tags ***
 html/Bestel.html
-	[Semi-verboden tag] <div>: 35; 40; 45; 50; 55; 82; 86; 90; 98; 102
-	[Semi-verboden tag] <span>: 39; 44; 49; 54
+	[Semi-verboden tag] <div>: 35; 40; 45; 50; 55; 82; 86; 90; 101; 105
+	[Semi-verboden tag] <span>: 39; 44; 49; 54; 108
 html/Producten.html
 	[Semi-verboden tag] <div>: 33
