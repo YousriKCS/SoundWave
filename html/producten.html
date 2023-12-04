@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="../css/site.css">
     <link rel="stylesheet" href="../css/product.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="../scripts/producten-filter.js" defer ></script>
     <title>Producten</title>
 </head>
 <body>
@@ -29,98 +30,98 @@
 </header>
     <aside>
         <h2>Filter</h2>
-        <form >
+        <form id="filter" >
             <div>
-                <input type="radio" name="typeheadphone" id="overear">
+                <input type="radio" name="typeheadphone" id="overear" value="overear">
                 <label for="overear">Over-Ear</label>
 
-                <input type="radio" name="typeheadphone" id="inear">
+                <input type="radio" name="typeheadphone" id="inear" value="inear">
                 <label for="inear">In-Ear</label>
 
-                <input type="radio" name="typeheadphone" id="onear">
-                <label for="onear">Over-Ear</label>
+                <input type="radio" name="typeheadphone" id="onear" value="onear">
+                <label for="onear">On-Ear</label>
 
-                <input type="radio" name="typeheadphone" id="boneconduction">
+                <input type="radio" name="typeheadphone" id="boneconduction" value="boneconduction">
                 <label for="boneconduction">Bone-Conduction</label>
             </div>
         </form>
     </aside>
 <main>
-<article>
+<article class="producten">
     <h2 class="textAlignCenter margeBottom">Our Headphones</h2>
     <section class="ProductenGalerij displayFlex">
         <h3 class="hiddenTitle">Products</h3>
-    <section>
+    <section data-headphonetype="overear">
         <img src="../media/AirpodsMax.jpg" alt="Airpods Max">
         <h4 class="textAlignCenter"><a href="airpodsMax.html">Airpods Max</a></h4>
         <p class="textAlignCenter">Price: €399,99</p>
     </section>
-<section>
+<section data-headphonetype="overear">
     <img src="../media/BeatsPro.jpg" alt="Beats Pro">
            <h4 class="textAlignCenter"><a href="beatsPro.html">Beats Pro</a></h4>
             <p class="textAlignCenter">Price: €299,99</p>
 </section>
-    <section>
+    <section data-headphonetype="overear">
         <img src="../media/SonyUltra.jpg" alt="Sony Ultra">
         <h4 class="textAlignCenter"><a href="sonyUltra.html">Sony Ultra</a></h4>
         <p class="textAlignCenter">Price: €199,99</p>
     </section>
-    <section>
+    <section data-headphonetype="inear">
         <img src="../media/EarbudsSamsung.jpg" alt="Earsbuds Pro">
         <h4 class="textAlignCenter">Galaxy Buds</h4>
         <p class="textAlignCenter">Price: €199,99 </p>
     </section>
-    <section>
+    <section data-headphonetype="inear">
         <img src="../media/AirpodsPro.jpg" alt="Airpods Pro">
         <h4 class="textAlignCenter">Airpods Pro</h4>
         <p class="textAlignCenter">Price: €249,99</p>
     </section>
-    <section>
+    <section data-headphonetype="inear">
         <img src="../media/Beats-PowerBeats.jpg" alt="Beats - PowerBeats">
         <h4 class="textAlignCenter">Beats - PowerBeats</h4>
         <p class="textAlignCenter">Price: €229,99</p>
     </section>
-    <section>
+    <section data-headphonetype="overear">
         <img src="../media/JBL-Tune.jpg" alt="JBL - Tune">
         <h4 class="textAlignCenter">JBL - Tune</h4>
         <p class="textAlignCenter">Price: €99,99</p>
     </section>
-    <section>
+    <section data-headphonetype="onear">
         <img src="../media/Marshall-Major-IV.jpg" alt="Marshall Major IV">
         <h4 class="textAlignCenter">Marshall Major IV</h4>
         <p class="textAlignCenter">Price: €149,99</p>
     </section>
-    <section>
+    <section data-headphonetype="overear">
         <img src="../media/BoseQuietComfort-45.jpg" alt="Bose QuietComfort 45">
         <h4 class="textAlignCenter">Bose QuietComfort 45</h4>
         <p class="textAlignCenter">Price: €229,99</p>
     </section>
-    <section>
+    <section data-headphonetype="overear">
         <img src="../media/Logitech-Zone-Vibe-125.jpg" alt="Logitech Zone Vibe 125">
         <h4 class="textAlignCenter">Logitech Zone Vibe 125</h4>
         <p class="textAlignCenter">Price: €99,99</p>
     </section>
-    <section>
+    <section data-headphonetype="onear">
         <img src="../media/Anker-Soundcore-Life-Q30.webp" alt="Anker Soundcore Life Q30">
         <h4 class="textAlignCenter">Anker Soundcore Life Q30</h4>
         <p class="textAlignCenter">Price: €79,99</p>
     </section>
-    <section>
+    <section data-headphonetype="onear">
         <img src="../media/Philips-TAH4205.jpg" alt="Philips TAH4205">
         <h4 class="textAlignCenter">Philips TAH4205</h4>
         <p class="textAlignCenter">Price: €29,99</p>
     </section>
-    <section>
+    <section data-headphonetype="onear">
         <img src="../media/Volkano-Impulses-Series.jpg" alt="Volkano Impulses Series">
         <h4 class="textAlignCenter">Volkano Impulses Series</h4>
         <p class="textAlignCenter">Price: €69,99</p>
     </section>
-    <section>
+    <section data-headphonetype="onear">
         <img src="../media/Balo-700.webp" alt="Balo 700">
         <h4 class="textAlignCenter">Balo 700</h4>
         <p class="textAlignCenter">Price: €89,99</p>
     </section>
-    <section>
+    <section data-headphonetype="onear">
         <img src="../media/MontBlanc-MB-01.jpeg" alt="Montblanc MB 01">
         <h4 class="textAlignCenter">Montblanc MB 01</h4>
         <p class="textAlignCenter">Price: €599,99</p>

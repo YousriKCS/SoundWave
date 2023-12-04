@@ -5,6 +5,7 @@ document.getElementById("telefoonnummer").addEventListener("change", validateTel
 
 
 
+
 document.getElementById("submit").addEventListener("click", function(event) {
     event.preventDefault();
     let form = document.getElementById("bestellingklant");

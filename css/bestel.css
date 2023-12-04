@@ -29,3 +29,15 @@ form button{
     padding: 15px 32px;
     cursor: pointer;
 }
+.isValid{
+    border: 2px solid lightgreen;
+
+}
+isInvalid{
+    border: 2px solid red;
+}
+
+.error{
+    color: red;
+    display: block;
+}
