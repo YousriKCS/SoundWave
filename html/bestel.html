@@ -5,9 +5,8 @@
     <link rel="stylesheet" href="../css/site.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <title>Bestel</title>
-    <script src="../scripts/bestel.js" defer></script>
     <link rel="stylesheet" href="../css/bestel.css">
-
+    <script src="../scripts/bestel.js" defer></script>
 </head>
 <body>
 <header>
@@ -40,18 +39,18 @@
             <div>
                 <label for="achternaam">Lastname:</label>
                 <input type="text" id="achternaam" placeholder="Ian" maxlength="30">
+                <span class="error" ></span>
             </div>
-            <span id="lastnamespan"></span>
             <div>
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" placeholder="example@hotmail.com" required>
+                <span class="error" ></span>
             </div>
-            <span id="mailspan"></span>
             <div>
                 <label for="telefoonnummer">Phonenumber:</label>
                 <input type="number" id="telefoonnummer" placeholder="+324 15 45 18 25.">
+                <span  id="formulierError"  class="error" ></span>
             </div>
-            <span id="phonenumberspan"></span>
             <div>
                 <label for="product">Choose a Headphone:</label>
                 <select name="product" id="product" required>
@@ -85,7 +84,7 @@
             </div>
             <div>
                 <label for="datumVoorLevering">Delivery Date:</label>
-                <input type="date" id="datumVoorLevering" >
+                <input type="date" id="datumVoorLevering" required >
             </div>
             <div>
                 <label for="payment">How would you like to pay?</label>
@@ -104,8 +103,8 @@
             </div>
             <div class="textAlignCenter margeTop">
                 <button type="submit">Order Now!</button>
+                <span  class="error" ></span>
             </div>
-            <span id="orderbutton"></span>
         </fieldset>
     </form>
 
