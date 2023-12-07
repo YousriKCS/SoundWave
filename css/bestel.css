@@ -5,8 +5,7 @@ form {
     padding: 50px;
     box-shadow: 0 0 10px;
     max-width: 55rem;
-    margin: auto;
-    margin-top: 100px;
+    margin: 100px auto auto;
 }
 
 label {

@@ -1,4 +1,4 @@
 === CSS_Duplicatie ===
 *** property/value combinatie ***
-8	display:flex	[css/Site.css (7),css/bestel.css (1)]
-5	width:100%	[css/Index.css (1),css/Product.css (1),css/Site.css (2),css/bestel.css (1)]
+8	display:flex	[css/site.css (7),css/bestel.css (1)]
+5	width:100%	[css/index.css (1),css/product.css (1),css/site.css (2),css/bestel.css (1)]

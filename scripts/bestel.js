@@ -1,10 +1,14 @@
 init();
+
+
 function init(){
     document.getElementById("voornaam").addEventListener("blur",validatieVoornaam);
     document.getElementById("achternaam").addEventListener("blur",validatieAchternaam);
     document.getElementById("email").addEventListener("blur",validateMail);
     document.getElementById("bestellingklant").addEventListener("submit",validatieFormulier);
     document.getElementById("telefoonnummer").addEventListener("blur",validatieTelefoonnummer);
+    document.getElementById("postcode").addEventListener("blur",validateZipcode);
+
 }
 function toonFoutBoodschap(boodschap, errorElement) {
     errorElement.innerHTML = boodschap;
@@ -12,11 +16,11 @@ function toonFoutBoodschap(boodschap, errorElement) {
 
 function isValidated(element,isvalid=true) {
     if (isvalid){
-        element.classList.add("isvalid")
-        element.classList.remove("isinvalid")
+        element.classList.add("isValid")
+        element.classList.remove("isInvalid")
     } else{
-        element.classList.remove("isvalid")
-        element.classList.add("isinvalid")
+        element.classList.remove("isValid")
+        element.classList.add("isInvalid")
     }
 }
 
@@ -57,7 +61,7 @@ function validatieAchternaam(){
         return true;
     }
 }
-function validatieMail(){
+function validateMail(){
     let mailElement = document.getElementById("email");
 
     let mailError = mailElement.parentElement.querySelector(".error");
@@ -96,6 +100,33 @@ function validatieTelefoonnummer() {
         return true;
     }
 }
+function validateZipcode() {
+
+    let zipcodeElement = document.getElementById("postcode");
+
+    let zipcodeError = zipcodeElement.parentElement.querySelector(".error");
+
+    let zipcodeValue = zipcodeElement.value;
+
+    if (zipcodeValue.length > 4 || zipcodeValue.length < 4){
+        toonFoutBoodschap("You must enter a valid Zipcode",zipcodeError);
+        isValidated(zipcodeElement,false);
+        return false;
+
+    } else if (!(zipcodeValue < 9999 && zipcodeValue > 1000)) {
+        toonFoutBoodschap("Zipcode must be between 9999 and 1000",zipcodeError);
+        isValidated(zipcodeElement,false);
+        return false;
+
+    }
+    else{
+        toonFoutBoodschap("",zipcodeError);
+        isValidated(zipcodeElement);
+        return true;
+    }
+
+}
+
 function validatieFormulier(event) {
     event.preventDefault();
 
@@ -110,12 +141,16 @@ function validatieFormulier(event) {
         return;
     }
 
-    if (!validatieMail()){
+    if (!validateMail()){
         toonFoutBoodschap("There is something wrong with your E-mail",formulierError);
         return
     }
     if (!validatieTelefoonnummer()){
         toonFoutBoodschap("There is something wrong with your phone-number",formulierError);
+        return
+    }
+    if (!validateZipcode()){
+        toonFoutBoodschap("There is something wrong with your Zipcode",formulierError);
         return
     }
 

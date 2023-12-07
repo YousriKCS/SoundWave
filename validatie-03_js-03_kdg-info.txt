@@ -1,0 +1,5 @@
+=== JS_Variabelen ===
+*** Global declared variables ***
+scripts/producten-filter.js
+	radiobuttons        		1:6(depth:0)
+	radiobutton         		3:9(depth:0)

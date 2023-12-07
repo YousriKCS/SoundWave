@@ -16,7 +16,7 @@ function toonProductenMetFilter(typeheadphone) {
     for (let product of producten){
         console.log(product.dataset.headphonetype)
         console.log(typeheadphone)
-        if (product.dataset.headphonetype == typeheadphone) {
+        if (product.dataset.headphonetype === typeheadphone) {
             product.classList.remove("hidden");
         }  else{
             product.classList.add("hidden");

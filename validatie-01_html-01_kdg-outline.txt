@@ -1,4 +1,4 @@
-html/Bevestiging.html
-	[Outline] Level conflict: 30; 31
+html/bevestiging.html
+	[Outline] Level conflict: 30
 	[Outline] Multiple headings: 10
 
