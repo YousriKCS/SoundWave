@@ -9,5 +9,8 @@ html/beatsPro.html
 	[Semi-verboden tag] <div>: 76
 html/sonyUltra.html
 	[Semi-verboden tag] <div>: 64
+html/bevestiging.html
+	[Semi-verboden tag] <div>: 31
+	[Semi-verboden tag] <span>: 35; 36; 37; 38; 39; 40; 41; 42; 43; 44
 html/airpodsMax.html
 	[Semi-verboden tag] <div>: 76
