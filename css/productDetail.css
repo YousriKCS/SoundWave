@@ -7,8 +7,10 @@
 aside h2 {
     margin-top: 50px;
 }
- button{
-    width: 8rem;
+ section div{
+     border: 2px outset lightskyblue;
+     border-radius: 0.5em;
+    width: 6rem;
     background-color: white;
     padding: 5px 10px;
     cursor: pointer;
