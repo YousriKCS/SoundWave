@@ -114,7 +114,7 @@ function validateZipcode() {
         return false;
 
     } else if (!(zipcodeValue < 9999 && zipcodeValue > 1000)) {
-        toonFoutBoodschap("Zipcode must be between 9999 and 1000",zipcodeError);
+        toonFoutBoodschap("Zipcode must be between 1000 and 9999",zipcodeError);
         isValidated(zipcodeElement,false);
         return false;
 

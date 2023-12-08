@@ -1,0 +1,17 @@
+.bevestiging {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 0 10px;
+    max-width: 55rem;
+    margin: 100px auto auto;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+.bevestiging p {
+    width: 100%;
+    padding: 7px;
+    border-radius: 6px;
+    border: 2px outset lightskyblue;
+}

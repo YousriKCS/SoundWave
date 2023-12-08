@@ -33,22 +33,22 @@
         <fieldset> <legend class="textAlignCenter">Continue with your order:</legend>
             <div>
                 <label for="voornaam">Firstname:</label>
-                <input type="text" id="voornaam" placeholder="Thomas" required maxlength="30">
+                <input name="voornaam" type="text" id="voornaam" placeholder="Thomas"  maxlength="30">
                 <span class="error" ></span>
             </div>
             <div>
                 <label for="achternaam">Lastname:</label>
-                <input type="text" id="achternaam" placeholder="Ian" maxlength="30">
+                <input name="achternaam" type="text" id="achternaam" placeholder="Ian" maxlength="30">
                 <span class="error" ></span>
             </div>
             <div>
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" placeholder="example@hotmail.com" required>
+                <input name="email" type="email" id="email" placeholder="example@hotmail.com" >
                 <span class="error" ></span>
             </div>
             <div>
                 <label for="telefoonnummer">Phonenumber:</label>
-                <input type="number" id="telefoonnummer" placeholder="0415451825.">
+                <input name="telefoonnummer" type="number" id="telefoonnummer" placeholder="0415451825.">
                 <span   class="error" ></span>
             </div>
             <div>
@@ -80,23 +80,23 @@
             </div>
             <div>
                 <label for="deliveryaddress">Delivery Address:</label>
-                <input type="text" id="deliveryaddress" required placeholder="Pothoekstraat 125">
+                <input name="deliveryaddress" type="text" id="deliveryaddress" required placeholder="Pothoekstraat 125">
             </div>
             <div>
                 <label for="postcode">Zipcode:</label>
-                <input type="number" id="postcode" required placeholder="2060">
+                <input name="postcode" type="number" id="postcode" required placeholder="2060">
                 <span class="error"></span>
             </div>
             <div>
                 <label for="datumVoorLevering">Delivery Date:</label>
-                <input type="date" id="datumVoorLevering" required >
+                <input name="" type="date" id="datumVoorLevering" required >
             </div>
             <div>
                 <label for="payment">How would you like to pay?</label>
                 <select name="payment" id="payment" required>
                     <option value="">--Select a Payment Method--</option>
                     <optgroup label="method" class="textAlignCenter">
-                    <option value="creditcard">CreditCard: Visa/MasterCard</option>
+                    <option value="creditcard">CreditCard:Visa/MasterCard</option>
                     <option value="applepay">Apple Pay</option>
                     <option value="paypal">PayPal</option>
                     </optgroup>
