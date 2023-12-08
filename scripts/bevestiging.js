@@ -9,20 +9,17 @@ function informatieUitURL(){
 
     // get param
     let paramVoornaam = searchParams.get("voornaam");
-    console.log("param " + paramVoornaam);
     let paramAchternaam = searchParams.get("achternaam");
-    console.log("param " + paramAchternaam)
-
     let paramEmail = searchParams.get("email");
-
     let paramProduct = searchParams.get("product");
     let paramPayment = searchParams.get("payment");
     let paramTelefoonnummer = searchParams.get("telefoonnummer");
     let paramDeliveryAddress = searchParams.get("deliveryaddress");
     let paramPostcode = searchParams.get("postcode");
     let paramDeliveryDate = searchParams.get("datumVoorLevering");
-    console.log("param: " + paramDeliveryDate)
     let paramReview = searchParams.get("opmerking");
+
+
 
    let voornaamElement = document.getElementById("voornaamId");
    voornaamElement.innerText = paramVoornaam;
