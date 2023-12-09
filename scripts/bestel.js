@@ -1,6 +1,5 @@
 init();
 
-
 function init(){
     document.getElementById("voornaam").addEventListener("blur",validatieVoornaam);
     document.getElementById("achternaam").addEventListener("blur",validatieAchternaam);

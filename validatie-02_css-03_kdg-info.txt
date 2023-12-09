@@ -2,4 +2,5 @@
 *** property/value combinatie ***
 9	display:flex	[css/site.css (7),css/bevestiging.css (1),css/bestel.css (1)]
 6	width:100%	[css/index.css (1),css/product.css (1),css/site.css (2),css/bevestiging.css (1),css/bestel.css (1)]
+5	border:2px outset lightskyblue	[css/site.css (1),css/bevestiging.css (1),css/productDetail.css (2),css/bestel.css (1)]
 5	box-sizing:border-box	[css/site.css (3),css/bevestiging.css (1),css/bestel.css (1)]

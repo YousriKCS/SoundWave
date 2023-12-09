@@ -109,11 +109,16 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
 }
 .review img{
     width: auto;
     height: auto;
     object-fit: cover;
+}
+.imgBorder{
+    border:  2px outset lightskyblue;
+    border-radius: 1rem;
 }
 .reviewBody li {
     list-style: none;
