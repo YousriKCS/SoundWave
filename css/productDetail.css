@@ -3,7 +3,7 @@
     height: 188px;
     object-fit: cover;
     border: 2px outset lightskyblue;
-    border-radius: 1rem;
+    border-radius: 2rem;
     transition: transform 0.3s ease-in-out;
     margin-left: 25px;
 }
@@ -14,7 +14,7 @@ aside h2 {
 
 section div {
     border: 2px outset lightskyblue;
-    border-radius: 0.5em;
+    border-radius: 2rem;
     width: 6rem;
     background-color: white;
     padding: 5px 10px;
@@ -24,4 +24,11 @@ section div {
 
 .page img:hover {
     transform: scale(1.4);
+}
+
+.ancer{
+    margin-left: 350px;
+}
+div a:hover{
+    color: #0008FF;
 }

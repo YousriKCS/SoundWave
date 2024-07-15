@@ -29,3 +29,6 @@
 form select option  {
     font-family: Montserrat, sans-serif;
 }
+.ProductenGalerij a:hover{
+    color: #0008FF;
+}

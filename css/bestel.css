@@ -24,7 +24,8 @@ input {
 }
 form button{
     width: 30rem;
-    background-color: lightgreen;
+    background-color: #98fb98;
+    border-radius: 1rem;
     padding: 15px 32px;
     cursor: pointer;
 }
